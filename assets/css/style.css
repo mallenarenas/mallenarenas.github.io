@@ -12,7 +12,14 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 5%;
+    border: solid 2px #613F75
   }
+.card{
+    border: solid 4px #613F75; 
+    border-radius: 5%;
+
+}  
 /* Paleta de Colores*/
 .bg-rosa-f{
     background-color: #EF798A;
@@ -25,6 +32,9 @@ header{
 }
 .border-morado{
     border:5px solid #613F75;
+}
+.border-r{
+    border-radius: 10%;
 }
 .bg-morado{
     background-color:#613F75;
