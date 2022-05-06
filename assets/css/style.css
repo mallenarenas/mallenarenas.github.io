@@ -1,48 +1,71 @@
-header{
-    height: 28em;
-    padding: 5em;
-    font-size: 2em;
-    background-image: url("../imgs/maquina.jpg");
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-}
-#Portafolio .image-top {
-    height: 250px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    border-radius: 5%;
-    border: solid 2px #613F75
-  }
-.card{
-    border: solid 4px #613F75; 
-    border-radius: 5%;
-
-}  
-/* Paleta de Colores*/
-.bg-rosa-f{
-    background-color: #EF798A;
-}
-.bg-rosa-s{
-    background-color: #F7A9A8;
-}
-.bg-azul{
-    background-color: #7D82B8;
-}
-.border-morado{
-    border:5px solid #613F75;
-}
-.border-r{
-    border-radius: 10%;
-}
-.bg-morado{
-    background-color:#613F75;
-}
-
-.bg-lila{
-    background-color: #E5C3D1;
-}
-footer{
-    text-align: center;
-}
+    .rounded-circle {
+        height: 80px;
+    }
+    
+    header {
+        height: 28em;
+        padding: 5em;
+        font-size: 2em;
+        background-image: url("../imgs/maquina.jpg");
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+    }
+    
+    #Portafolio .image-top {
+        height: 250px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 5%;
+        border: solid 2px #613F75
+    }
+    /*efecto en tarjetas*/
+    
+    .a {
+        border-radius: 7%;
+    }
+    
+    .a:hover {
+        transform: scale(0.9);
+        border-radius: 30px;
+        transition: all 0.5s ease;
+    }
+    
+    .card {
+        border: solid 4px #613F75;
+        border-radius: 5%;
+    }
+    /* Paleta de Colores*/
+    
+    .bg-rosa-f {
+        background-color: #EF798A;
+    }
+    
+    .bg-rosa-s {
+        background-color: #F7A9A8;
+    }
+    
+    .bg-azul {
+        background-color: #7D82B8;
+    }
+    
+    .border-morado {
+        border: 5px solid #613F75;
+    }
+    
+    .border-r {
+        border-radius: 10%;
+    }
+    
+    .bg-morado {
+        background-color: #613F75;
+    }
+    
+    .bg-lila {
+        background-color: #E5C3D1;
+    }
+    
+    footer {
+        text-align: center;
+    }
