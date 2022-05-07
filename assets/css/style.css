@@ -65,7 +65,9 @@
     .bg-lila {
         background-color: #E5C3D1;
     }
-    
+    .card{
+        height: 470px;
+    }
     footer {
         text-align: center;
         height: 80px
